@@ -7,7 +7,7 @@ export const Item = styled.li`
     justify-content: center;
     padding: 10px;
     width: calc(100% / 5);
-       background-color: ${props => {
+    background-color: ${props => {
         switch(props.label){
             case ".docx":
                 return "Cyan";

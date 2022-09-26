@@ -4,11 +4,11 @@ import { Section, Title, List } from "components/statistics/Statistics.styled";
 
 export const Statistics = ({ title, stats }) => {
     return <Section>
-        {title && (<Title>{title}</Title>)}
-        <List>
-            {stats.map(stat =><StatisticsItem key={stat.id} stat={stat}/>)}
-        </List>
-        </Section>
+                {title && (<Title>{title}</Title>)}
+                <List>
+                    {stats.map(stat =><StatisticsItem key={stat.id} stat={stat}/>)}
+                </List>
+            </Section>
 } 
 
 Statistics.propTypes = {
