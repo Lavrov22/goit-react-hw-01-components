@@ -1,4 +1,3 @@
-import { getQueriesForElement } from '@testing-library/react';
 import styled from 'styled-components';
 
 export const Item = styled.li`
