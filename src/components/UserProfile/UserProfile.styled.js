@@ -3,9 +3,9 @@ import styled from 'styled-components'
 export const Profile = styled.div`   
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-    border-radius: 0px 0px 4px 4px;
-    margin: 20px auto 0 auto;
+    border-radius: 4px;
     width: 300px;
+    height: 400px;
 `
 export const Description = styled.div`
     margin-bottom: 10px;
@@ -41,6 +41,7 @@ export const TagLocation = styled.p`
     color: grey;
     margin: 0;
     padding: 5px;
+    margin-bottom: 17px;
 `
 
 export const Stats = styled.ul`
@@ -59,6 +60,7 @@ export const StatsItem = styled.li`
     flex-direction: column;
     padding: 10px;
     width: 100px;
+    border-radius: 4px;
 `
 
 export const Lable = styled.span`    
