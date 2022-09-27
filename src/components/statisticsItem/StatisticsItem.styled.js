@@ -17,6 +17,7 @@ export const Item = styled.li`
                 return "Tomato";
             case ".psd":
                 return "Fuchsia";
+            default:
             }
         }
     }
@@ -29,6 +30,4 @@ export const Label = styled.span`
 export const Percentage = styled.span`
     font-weight: 700;
     text-align: center;
-    console.log(span);
- 
-`;
+ `;
