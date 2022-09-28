@@ -9,7 +9,7 @@ export const FriendItem = ({ friend: { avatar, name, isOnline } }) => {
             </Item>
 }
 
-FriendItem.propType = {
+FriendItem.propTypes = {
     friend: PropTypes.shape({
         avatar: PropTypes.string.isRequired,
         name: PropTypes.string.isRequired,
