@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { Item, Label, Percentage } from "components/statisticsItem/StatisticsItem.styled";
 
-export const StatisticsItem = ({ stat: {id, label, percentage } }) => {
+export const StatisticsItem = ({ stat: { label, percentage } }) => {
     return <Item label={label}>
               <Label>{label}</Label>
               <Percentage>{percentage}%</Percentage>
@@ -10,7 +10,6 @@ export const StatisticsItem = ({ stat: {id, label, percentage } }) => {
 
 StatisticsItem.propTypes = {    
     stat: PropTypes.shape({
-      id:  PropTypes.string.isRequired,
       label: PropTypes.string.isRequired,
       percentage: PropTypes.number.isRequired,})
 }
